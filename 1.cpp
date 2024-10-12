@@ -42,6 +42,6 @@ int main()
 
     std::cout << std::endl << "3-й массив:";
     for (int i = 0; i < 10; ++i) {
-        std::cout << (double)(v[i]/perv)  << " ";
+        std::cout << (v[i]/perv)  << " ";
     }
 }
